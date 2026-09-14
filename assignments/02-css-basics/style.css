@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    background-image: url('../../images/knights.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#title {
+    background-image: url("../../images/wood.jpeg");
+    background-size: cover;
+    background-position: center;
+
+    position: relative;
+    height: clamp(60px, 8vh, 84px);
+    margin: 0;
+    padding: 0;
+
+    display: grid;
+    place-items: center;
+
+    font-family: 'Uncial Antiqua', serif;
+    font-size: clamp(13px, 1.5vw, 20px);
+    color: #f0d8a8;
+    text-shadow: 0 2px 3px rgba(0,0,0,0.6);
+
+    z-index: 10;
+}
+
+.Knight-container {
+  display: flex;
+  justify-content: center; 
+  align-items: stretch;    
+  gap: 20px;               
+  padding: 40px 20px;
+}
+
+.Knight-card {
+  flex: 1;                 
+  max-width: 300px;   
+  min-width: 250px;            
+
+  background-color: rgba(20, 18, 15, 0.85); 
+  border: 2px solid #5a4a3a;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  color: #e0e0e0;
+
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Knight-card:hover {
+  background-color: rgba(20, 18, 15, 0.95); 
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
+
+.Knight-image {
+  width: 100%;            
+  height: auto;         
+  max-height: 280px;  
+  object-fit: contain;      
+  border-radius: 4px;
+}
+
+.Knight-name {
+  color: #d4af37;          
+  margin-top: 15px;
+}
+
+p {
+  color: #cccccc;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
