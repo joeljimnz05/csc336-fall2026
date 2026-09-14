@@ -2,13 +2,13 @@ body {
     margin: 0;
     padding: 0;
 
-    background-image: url('../../images/knights.jpg');
+    background-image: url('../../images/assignment2/knights.jpg');
     background-size: cover;
     background-position: center;
 }
 
 #title {
-    background-image: url("../../images/wood.jpeg");
+    background-image: url("../../images/assignment2/wood.jpeg");
     background-size: cover;
     background-position: center;
 
