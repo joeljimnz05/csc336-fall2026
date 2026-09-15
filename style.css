@@ -1,5 +1,11 @@
-.footer-link {
-    position: fixed;
-    bottom: 20px;
-    left: 20px;
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
 }
