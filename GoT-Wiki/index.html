@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>GoT Wiki</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="wood-header">
+        <div class="header-inner">
+
+            <div class="bar-title">
+                <h1>The Known World Archives: </h1> 
+            </div>
+
+        <nav class="top-nav">
+            <ul>
+                <li><a href="#characters">Characters</a></li>
+                <li><a href="#houses">Houses</a></li>
+                <li><a href="#regions">Regions</a></li>
+                <li><a href="#timeline">Timeline</a></li>
+                <li><a href="#lore">Lore</a></li>
+                <li><a href="#creatures">Creatures</a></li>
+            </ul>
+        </nav>
+
+            <form class="search-form" action="search.html" method="GET">
+                <input 
+                    type="text"
+                    name="query"
+                    class="search-input"
+                    placeholder="Search archives"
+                    aria-label="Search Wiki"
+                    />
+                <button type="submit" class="search-btn" aria-label="Submit search">
+                    🔍
+                </button>
+            </form>
+
+        </div>
+    </header>
+
+    <div class="full-bg"></div> 
+
+    <div class="character-carousel">
+
+        <a href="characters/jaime.html">
+            <img src="Images/Jaime Lannister.jpg" class="char-img">
+        </a>
+
+        <a href="characters/jon.html"> 
+            <img src="Images/jsnow.jpeg" class="char-img">
+        </a>
+
+        <a href="characters/robert.html">
+            <img src="Images/Rbaratheon.jpeg" class="char-img">
+        </a>
+
+        <a href="characters/hound.html">
+            <img src="Images/hound.jpeg" class="char-img">
+        </a>
+
+        <a href="characters/tywin.html">
+            <img src="Images/tywin.jpeg" class="char-img">
+        </a>
+
+        <a href="characters/dtar.html">
+            <img src="Images/dtar.jpeg" class="char-img">
+        </a>
+
+    </div>
+
+
+    <script src="carousel.js"></script>
+
+
+    <div class="GoTmap">
+        <a href="Gotmap.html" title="Map of Westeros and Essos">
+            <img src="Images/Gotmap.jpeg" class="GoT-Map">
+        </a>
+    </div> 
+
+     <div class="sidebar"> 
+        <h2 class="sidebar-title">The Great Houses Of Westeros</h2>
+
+        <a href="houses/stark.html" class="house-link">
+            <img src="Images/stark.png" class="Stark-Sigil">
+        </a>
+
+        <a href="houses/lannister.html" class="house-link">
+            <img src="Images/lannister.png" class="Lannister-Sigil">
+        </a>
+
+        <a href="houses/tar.html" class="house-link">
+             <img src="Images/tar.png" class="Tar-Sigil">
+        </a>
+
+        <a href="houses/tully.html" class="house-link">
+             <img src="Images/tully.png" class="Tully-Sigil">
+        </a>
+
+        <a href="houses/martell.html" class="house-link">
+            <img src="Images/martell.png" class="Martell-Sigil">
+        </a>
+
+        <a href="houses/arryn.html" class="house-link">
+            <img src="Images/arryn.png" class="Arryn-Sigil">
+        </a>
+        <a href="houses/baratheon.html" class="house-link">
+            <img src="Images/baratheon.png" class="Baratheon-Sigil">
+        </a>
+
+        <a href="houses/greyjoy.html" class="house-link">
+            <img src="Images/greyjoy.png" class="Greyjoy-Sigil">
+        </a>
+
+        <a href="houses/tyrell.html" class="house-link">
+            <img src="Images/tyrell.png" class="Tyrell-Sigil">
+        </a>
+     </div>
+    
+</body>
+
+</html>
