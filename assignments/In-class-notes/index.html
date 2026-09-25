@@ -1,0 +1,73 @@
+<html>
+    <head> 
+        <title> Javascript Demo </title>
+        <style>
+            #java-demo {
+                background-color: lightblue;
+                color: white;
+                padding: 20px;
+                text-align: center;
+            }
+        </style>
+
+
+    </head>
+
+
+    <body>
+
+        <div id="java-demo">
+            Empty Div
+        </div>
+
+        <script>
+            console.log("Hello World");
+            let fname = "Jon";
+            let Lname = "Arryn";
+
+            console.log(fname + " " + Lname);
+
+            let x = 5;
+            let y = 27
+
+            while (x < y) {
+                console.log(x);
+                x++;
+            }
+
+            for (let i = 0; i < 10; i++) {
+                console.log(i);
+            }
+
+            let myArray = ["Jon", "Arya", "Sansa", "Bran", "Rickon"];
+
+            for (let i = 0; i <myArray.length; i++) {
+                console.log(myArray[i]);
+            }
+
+            function add3 (a, b, c) {
+                let sum = a + b + c;;
+                return sum;
+            }
+
+            let result = add3(1500, 1210, 1715);
+            console.log(result);
+
+            let obj = {
+                name: "Jon",
+                house: "Arryn",
+                age: 72,
+                isAlive: false
+            };
+            console.log(obj.name);
+            console.log(obj.house);
+            console.log(obj.age);
+            console.log(obj.isAlive);
+            
+            
+        </script>
+
+    </body>
+
+
+</html>
