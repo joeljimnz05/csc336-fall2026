@@ -115,6 +115,10 @@ const inventoryBox = document.querySelector("#inventory");
 
 function renderRoom(room) {
     game.innerHTML = "";
+    
+    const roomBox = document.createElement("div");
+    roomBox.classList.add("room");
+    roomBox.classList.add(currentRoom);
 
     const heading = document.createElement("h1");
     heading.innerHTML = room.name;
@@ -233,6 +237,8 @@ function renderRoom(room) {
     } else {
         game.append(buttons);
     }
+
+    game.append(roomBox);
     renderInventory();
 };
 

@@ -1,4 +1,159 @@
-.locked {
-    color: gray;
+body {
+    margin: 0;
+    padding: 24px;
+    background-color: #121212;
+    color: #f5e6c8;
+    font-family: Georgia, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
 
+#game,
+#message,
+#inventory {
+    width: 100%;
+    max-width: 900px;
+}
+.room {
+    min-height: 500px;
+    padding: 24px;
+    border: 3px solid #d4af37;
+    border-radius: 16px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+}
+
+.greatHall {
+    background-image: url("../../images/assignment3/GreatHall.gif");
+}
+.entranceHall {
+    background-image: url("../../images/assignment3/EntranceHall.jpg");
+}
+.grounds {
+    background-image: url("../../images/assignment3/Grounds.jpg");
+}
+.hogsmeade {
+    background-image: url("../../images/assignment3/Hogsmeade.jpg");
+}
+.potionsClassroom {
+    background-image: url("../../images/assignment3/Potions.jpg");
+}
+.hospitalWing {
+    background-image: url("../../images/assignment3/HospitalWing.jpg");
+}
+
+
+.room h1,
+.room h2,
+.room p {
+    margin: 0;
+    padding: 12px 18px;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    line-height: 1.6;
+}
+
+.room h1 {
+    color: #d4af37;
+    font-size: 32px;
+}
+
+.room h2 {
+    color: #d4af37;
+    font-size: 28px;
+}
+.room div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 18px;
+    background-color: #740001;
+    color: #f5e6c8;
+    border: 2px solid #d4af37;
+    border-radius: 8px;
+    font-family: Georgia, serif;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #a30003;
+    color: #ffffff;
+}
+
+button.locked,
+button.locked:hover {
+    background-color: #555555;
+    color: #bbbbbb;
+    border-color: #777777;
+}
+
+input {
+    padding: 10px 14px;
+    border: 2px solid #d4af37;
+    border-radius: 8px;
+    font-family: Georgia, serif;
+    font-size: 16px;
+}
+
+#message {
+    display: flex;
+    justify-content: center;
+}
+
+#message div {
+    max-width: 600px;
+    padding: 16px 24px;
+    background-color: #f5e6c8;
+    color: #2b1d0e;
+    border: 3px solid #d4af37;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+#message p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+#inventory {
+    padding: 16px 24px;
+    background-color: #2a2118;
+    border: 2px solid #d4af37;
+    border-radius: 12px;
+}
+
+#inventory h2 {
+    margin: 0 0 12px 0;
+    color: #d4af37;
+}
+
+#inventory ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#inventory li {
+    padding: 8px 14px;
+    background-color: #3d3024;
+    border: 1px solid #d4af37;
+    border-radius: 20px;
+}
+
+#inventory li:hover {
+    background-color: #5a4633;
 }
